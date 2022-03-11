@@ -1,0 +1,115 @@
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('./header_background.png');
+    margin: -1rem;
+    margin-bottom: -3.5rem;
+}
+
+header h1{
+    color: whitesmoke;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 5rem;
+}
+
+header button{
+    height: 100px;
+    width: 200px;
+    margin: 3rem;
+    margin-right: 5rem;
+    margin-top: 10rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    background-color: brown;
+    color: whitesmoke;
+}
+
+header button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: brown;
+    margin: 1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.topnav a {
+    color: whitesmoke;
+    padding: 1rem;
+    font-size: 4rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.subtitle{
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.subtitle h2{
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.subtitle ul{
+    font-size: 2rem;
+    padding: 1rem;
+    padding-left: 3rem;
+}
+
+.subtitle h3{
+    justify-content: space-evenly;
+    padding-left: 5rem;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}
+
+.card{
+    display: flex;
+    padding-left: 1.5rem;
+}
+
+.cardimg{
+    height: 13rem;
+    padding: 1rem;
+}
+
+.card h4{
+    position: relative;
+    top: 14rem;
+    right: 16rem;
+    font-size: 2rem;
+}
+
+.card p{
+    position: relative;
+    top: 18rem;
+    right: 24.5rem;
+    width: 15rem;
+}
+
+hr{
+    border: 0.25rem dotted brown;
+    margin: 4rem;
+}
+
+.cardimg:hover {
+  box-shadow: 0 0 3rem black;
+}

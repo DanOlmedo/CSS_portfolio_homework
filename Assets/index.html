@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link id="style" rel="stylesheet" href="./style.css">
+    <link id="altstyle" rel="stylesheet" href="'./alt_style.css'">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my <section id="fstack">Full-Stack</section> portfolio</h1>
+        <button onclick="swapStyleSheet('./style.css')">Chose theme 1</button>
+        <button onclick="swapStyleSheet('./alt_style.css')">Chose theme 2</button>
+    </header>
+
+    <div class="topnav">
+        <a class="navitem" href="#aboutme">About me</a>
+        <a class="navitem" href="#someofmywork">Some of my work</a>
+        <a class="navitem" href="#contact">Contact</a>
+       
+      </div>
+    
+      <div class="subtitle">
+          <h2 id="aboutme">About me</h2>
+              <ul>
+                  <li>I am 25 years old</li>
+                  <li>I studied mechanical and electrical engineering</li>
+                  <li>I like reading philosophy and history</li>
+                  <li>I started getting into web development about 4 months ago</li>
+              </ul>
+      </div>
+      <hr>
+      <div class="subtitle">
+        <h2 id="someofmywork">Some of my work</h2>
+        <div class="card">
+            <img class="cardimg" src="./03-javascript-homework-demo.png" alt="">
+            <h4>Password generator</h4>
+        </div>
+        <div class="card">
+            <img class="cardimg" src="./theme_switcher.png" alt="">
+            <h4>CSS theme selector</h4>
+        </div>
+        <div class="card">
+            <img class="cardimg" src="./webdev.jpg" alt="">
+            <h4>Full-Stack portfolio</h4>
+        </div>
+    </div>
+  <hr>
+    <div class="subtitle">
+        <h2 id="contact">Contact</h2>
+        <h3>GitHub: DanOlmedo</h3>
+        <h3>Phone: 555454802</h3>
+        <h3>LinkedIn: Daniel Olmedo</h3>
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
