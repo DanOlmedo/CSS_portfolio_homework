@@ -6,7 +6,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    background-image: url('./background_image_2.jpg');
+    background-image: url('./Assets/background_image_2.jpg');
     margin: -1rem;
     margin-bottom: -3.5rem;
 }

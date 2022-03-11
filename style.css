@@ -5,7 +5,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    background-image: url('./header_background.png');
+    background-image: url('./Assets/header_background.png');
     margin: -1rem;
     margin-bottom: -3.5rem;
 }
