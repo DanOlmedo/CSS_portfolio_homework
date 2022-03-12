@@ -83,12 +83,10 @@ header button:hover {
 
 .card{
     display: flex;
-    padding-left: 1.5rem;
 }
 
 .cardimg{
     height: 13rem;
-    padding: 1rem;
 }
 
 .card h4{
@@ -96,14 +94,9 @@ header button:hover {
     top: 14rem;
     right: 16rem;
     font-size: 2rem;
+    padding-bottom: 2rem;
 }
 
-.card p{
-    position: relative;
-    top: 18rem;
-    right: 24.5rem;
-    width: 15rem;
-}
 
 hr{
     border: 0.25rem dotted brown;
