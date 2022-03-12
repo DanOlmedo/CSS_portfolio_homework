@@ -1,14 +1,18 @@
 # CSS_portfolio_homework
 Repository for the first homework of unit 2. A basic portfolio to display HTML and advanced CSS knowledge. 
 
-# 02 Advanced CSS: Portfolio
+This is a webpage to display personal developments skills and projects. For the time being it has a series of placeholder projects. The page has two buttons to toggle between themes, a nav-bar with working links to other parts of the page, and some general information about me. 
+
+## Deployed URl: https://danolmedo.github.io/CSS_portfolio_homework/ 
+
+## GitHub repository: https://github.com/DanOlmedo/CSS_portfolio_homework 
 
 ## User Story
 
 ```
 AS A full-stack developer
 I WANT to have a portfolio to showcase my strenghts and abilities to potential employers
-SO THAT they can asses my talent an potential to fill the position the require
+SO THAT they can asses my talent an potential to fill the position that is required
 ```
 
 ## Acceptance Criteria
@@ -30,7 +34,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-
 
 ## Mock-Up
 
@@ -81,3 +84,5 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
+# Screenshot of expected output: 
+<img src='./screencapture_1.png'> 

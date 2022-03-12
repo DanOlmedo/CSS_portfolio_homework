@@ -70,11 +70,6 @@ header button:hover {
     padding: 2rem;
 }
 
-.subtitle p{
-    font-size: 1.5rem;
-    padding: 1rem;
-}
-
 .subtitle h3{
     justify-content: space-evenly;
     padding-left: 5rem;
@@ -84,12 +79,11 @@ header button:hover {
 
 .card{
     display: flex;
-    padding-left: 1.5rem;
+    flex: 0 1 30%;
 }
 
 .cardimg{
     height: 13rem;
-    padding: 1rem;
 }
 
 .card h4{
@@ -112,4 +106,5 @@ hr{
 
 .cardimg:hover {
   box-shadow: inset 0px 0px 1.5rem brown, 0 0 1.5rem brown;
+  transform: scale(1.5);
 }
