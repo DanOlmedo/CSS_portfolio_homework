@@ -91,28 +91,28 @@ header button:hover {
 
 .card{
     display: flex;
-
     max-width: 30%;
-
 }
 
 .cardimg{
     height: 13rem;
     max-width: 95%;
-    
+    padding: 2rem;
 }
 
 #generator{
-    height: 18rem;
+    height: 17rem;
     max-width: 100%;
+    padding-right: 2rem;
 }
 
 #generator h4{
     position: relative;
-    top: 16rem;
+    top: 18rem;
     right: 20rem;
     font-size: 2rem;
     padding-bottom: 2rem;
+    
 }
 
 .card h4{
@@ -130,7 +130,7 @@ hr{
 }
 
 .card:hover {
-  transform: scale(1.5);
+  transform: scale(1.15);
 }
 
 .vl{
