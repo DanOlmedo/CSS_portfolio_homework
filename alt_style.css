@@ -80,10 +80,13 @@ header button:hover {
 .card{
     display: flex;
     flex: 0 1 30%;
+    max-width: 30%;
 }
 
 .cardimg{
     height: 13rem;
+    max-width: 95%;
+    height: auto;
 }
 
 .card h4{
