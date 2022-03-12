@@ -107,7 +107,7 @@ hr{
     margin: 4rem;
 }
 
-.cardimg:hover {
+.card:hover {
   box-shadow: 0 0 3rem black;
   transform: scale(1.5);
 }
