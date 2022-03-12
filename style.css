@@ -85,6 +85,7 @@ header button:hover {
     display: flex;
     flex: 0 1 30%;
     max-width: 30%;
+    padding: 0.5rem;
 }
 
 .cardimg{
@@ -111,3 +112,10 @@ hr{
   box-shadow: 0 0 3rem black;
   transform: scale(1.5);
 }
+
+.vl{
+    border-left: 4px solid brown;
+    height: 15rem;
+    padding-top: 1rem;
+}
+

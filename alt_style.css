@@ -111,3 +111,9 @@ hr{
   box-shadow: inset 0px 0px 1.5rem brown, 0 0 1.5rem brown;
   transform: scale(1.5);
 }
+
+.vl{
+    border-left: 4px solid #fc5e03;
+    height: 15rem;
+    padding-top: 1rem;
+}
