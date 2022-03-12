@@ -36,6 +36,14 @@ header button:hover {
     color: black;
 }
 
+#avatar{
+    height: 11rem; 
+    width:auto;
+    justify-content: right;
+    padding-top: 7rem;
+    padding-right: 3rem;
+}
+
 .topnav{
     display: flex;
     justify-content: space-evenly;
@@ -81,13 +89,27 @@ header button:hover {
     display: flex;
     flex: 0 1 30%;
     max-width: 30%;
+    justify-content: space-evenly;
 }
 
 .cardimg{
-    height: 13rem;
+    height: 12rem;
     max-width: 95%;
-    height: auto;
 }
+
+#generator{
+    height: 18rem;
+    max-width: 100%;
+}
+
+#generator h4{
+    position: relative;
+    top: 16rem;
+    right: 20rem;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
 
 .card h4{
     position: relative;
@@ -108,7 +130,6 @@ hr{
 }
 
 .card:hover {
-  box-shadow: inset 0px 0px 1.5rem brown, 0 0 1.5rem brown;
   transform: scale(1.5);
 }
 
